@@ -1,27 +1,43 @@
-# ProjetoBuzzfeed
+# Quizz do BuzzFeed: Herói ou Vilão?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto de Quizz desenvolvido em Angular que determina se o usuário é um herói ou um vilão com base em suas respostas a uma série de perguntas.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Perguntas Interativas:** Os usuários são apresentados com uma série de perguntas interativas.
+- **Determinação de Personagem:** Com base nas respostas do usuário, o aplicativo determina se ele é mais propenso a ser um herói ou um vilão.
+- **Design Intuitivo:** Interface amigável e fácil de usar, seguindo as melhores práticas de design do BuzzFeed.
 
-## Code scaffolding
+## Como Usar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone este repositório em sua máquina local.
 
-## Build
+```
+git clone https://github.com/seu-usuario/quizz-buzzfeed-angular.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navegue até o diretório do projeto.
 
-## Running unit tests
+```
+cd quizz-buzzfeed-angular
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Instale as dependências necessárias.
 
-## Running end-to-end tests
+```
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Inicie o servidor de desenvolvimento.
 
-## Further help
+```
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Abra seu navegador e acesse http://localhost:4200.
+
+6. Responda às perguntas apresentadas e descubra se você é um herói ou um vilão!
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
